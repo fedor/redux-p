@@ -1,6 +1,6 @@
 {
   "name": "redux-p",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux middleware for promises",
   "repository": {
     "type": "git",
