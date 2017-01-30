@@ -1,0 +1,15 @@
+{
+  "name": "redux-p",
+  "version": "1.0.0",
+  "description": "Redux middleware for promises",
+  "main": "index.js",
+  "keywords": [
+    "promise",
+    "redux",
+    "react",
+    "react-native",
+    "middleware"
+  ],
+  "author": "Fedor Korshunov <mail@fedor.cc>",
+  "license": "MIT"
+}
