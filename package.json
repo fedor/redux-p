@@ -2,6 +2,10 @@
   "name": "redux-p",
   "version": "1.0.0",
   "description": "Redux middleware for promises",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fedor/redux-p.git"
+  },
   "main": "index.js",
   "keywords": [
     "promise",
