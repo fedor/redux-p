@@ -13,9 +13,9 @@ npm install redux-p --save
 ## Use
 ```js
 import { applyMiddleware, createStore } from 'redux'
-import promise from 'redux-p'
+import reduxPromise from 'redux-p'
 
-const middleware = applyMiddleware(promise)
+const middleware = applyMiddleware(reduxPromise)
 
 const store = createStore(
 	(state={}, action) => {

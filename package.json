@@ -6,7 +6,13 @@
     "type": "git",
     "url": "git://github.com/fedor/redux-p.git"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run build-commonjs && npm run build-umd && npm run build-umd-min",
+    "build-commonjs": "babel src -d lib",
+    "build-umd": "webpack --output-filename index.js",
+    "build-umd-min": "webpack -p --devtool source-map --output-filename index.min.js"
+  },
   "keywords": [
     "promise",
     "redux",
@@ -15,5 +21,12 @@
     "middleware"
   ],
   "author": "Fedor Korshunov <mail@fedor.cc>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
 }
